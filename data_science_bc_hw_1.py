@@ -9,6 +9,7 @@ Original file is located at
 
 pip install jupyterlab
 
+#Problem 1
 word=input("Enter the word:")
 vowel=['a','e','i','o','u']
 count=0
@@ -16,26 +17,26 @@ for i in word:
   if i in vowel:
     count+=1
 print("The number of vowels in", word,"is", count)
-
+#Problem 2
 animals=['tiger', 'elephant', 'monkey', 'zebra', 'panther']
 a=""
 for i in range(len(animals)):
   i=animals[i]
   a=i
   print(a.upper())
-
+#Problem 3
 for i in range (1,21):
   if i%2!=0:
     print(i, "odd")
   elif i%2==0:
     print(i, "even")
-
+#Problem
 word=input("Enter the word:")
 if word[:] == word[::-1]:
   print("The word is a palindrome")
 else:
   print("The word is not a palindrome")
-
+#Problem
 a=int(input("Enter an integer:"))
 b=int(input("Enter another integer:"))
 def sum_of_integer(a,b):
